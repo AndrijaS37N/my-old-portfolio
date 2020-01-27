@@ -8,26 +8,26 @@
       🛸
     </p>
     <div onclick id="div_about">
-      <p>I'm a software engineer that's finishing university right now, from Belgrade, Serbia, highly motivated by and interested in various technologies such as:</p>
-      <h1>&#128247;</h1>
-      <p>Cloud or web development with frameworks like Spring Boot and Vue.</p>
+      <p>I'm a software engineer based in Belgrade, Serbia that's currently working as a blockchain developer. Familiar with:</p>
       <h1>&#127889;</h1>
-      <p>C/C++ high-performance systems, low level stack vulnerabilities or engine development.</p>
+      <p>C/C++ programming languages, building with CMake and G++, GCC.</p>
+      <h1>&#128247;</h1>
+      <p>Vue.js, HTML, CSS and Node.</p>
       <h1>&#127935;</h1>
-      <p>Cyber security tools, models and software.</p>
+      <p>Java Spring Boot framework with Maven and MySQL.</p>
       <h1>🐚</h1>
-      <p>Non-hyped AI work and efficient, secure, decentralized and distributed systems.</p>
+      <p>Python scripting and various Linux distributions.</p>
       <h1>&#9203;</h1>
-      <p>Compiler and language architectures, say for Go, C++ or Swift.</p>
+      <p>Version control, SDLC, UML and project management tools.</p>
       <h1>🍪</h1>
-      <p>Linux distributions, preferably privacy and security-oriented ones.</p>
+      <p>Ethers.js and Solidity.</p>
       <h1>🔑</h1>
       <br />
       <hr id="blue_hr_about" />
       <br />
       <br />
       <br />
-      <p>Also, I'm a follower of topics and trends such as alternative computing and brain-computer interfaces.</p>
+      <p>Also, I'm a follower of topics and trends such as AI, high-performance computing, automation, game development, decentralized systems, alternative computing and brain-computer interfaces.</p>
       <p>Email me for a complete résumé. I have many hobbies, some of which you can check out on the home page in the art section.</p>
     </div>
     <img alt="That's me!" src="../assets/portrait_pic.jpg" width="120" height="120" id="image_of_me" />
