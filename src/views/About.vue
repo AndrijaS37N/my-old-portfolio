@@ -8,17 +8,17 @@
       🛸
     </p>
     <div onclick id="div_about">
-      <p>I'm a software engineer based in Belgrade, Serbia that's currently working as a blockchain developer. Familiar with:</p>
+      <p>I'm a software engineer based in Belgrade, Serbia that's currently working as a blockchain developer. I've worked with a number of different technologies.</p>
       <h1>&#127889;</h1>
-      <p>C/C++ programming languages, building with CMake and G++, GCC.</p>
+      <p>C and C++ programming languages.</p>
       <h1>&#128247;</h1>
-      <p>Vue.js, HTML, CSS and Node.</p>
+      <p>Node, React and Vue JavaScript giants.</p>
       <h1>&#127935;</h1>
       <p>Java Spring Boot framework with Maven and MySQL.</p>
       <h1>🐚</h1>
-      <p>Python scripting and various Linux distributions.</p>
+      <p>Python scripting for processing files and data.</p>
       <h1>&#9203;</h1>
-      <p>Version control, SDLC, UML and project management tools.</p>
+      <p>SDLC and UML systems design.</p>
       <h1>🍪</h1>
       <p>Ethers.js and Solidity.</p>
       <h1>🔑</h1>
