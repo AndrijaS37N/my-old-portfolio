@@ -8,7 +8,11 @@
       🛸
     </p>
     <div onclick id="div_about">
-      <p>I'm a software engineer based in Belgrade, Serbia that's currently working as a blockchain developer. I've worked with a number of different technologies.</p>
+      <p>
+        I'm a software engineer based in Belgrade, Serbia that's currently
+        looking for some creative React work. I've worked with a number of
+        different technologies.
+      </p>
       <h1>&#127889;</h1>
       <p>C and C++ programming languages.</p>
       <h1>&#128247;</h1>
@@ -20,17 +24,32 @@
       <h1>&#9203;</h1>
       <p>SDLC and UML systems design.</p>
       <h1>🍪</h1>
-      <p>Ethers.js and Solidity.</p>
-      <h1>🔑</h1>
+      <p>Recently more into TypeScript, GraphQL and design systems.</p>
+      <h1>🧁</h1>
+      <p>Check out my GitHub for more info on the projects I've done!</p>
+      <h1>🌳</h1>
       <br />
       <hr id="blue_hr_about" />
       <br />
       <br />
       <br />
-      <p>Also, I'm a follower of topics and trends such as AI, high-performance computing, automation, game development, decentralized systems, alternative computing and brain-computer interfaces.</p>
-      <p>Email me for a complete résumé. I have many hobbies, some of which you can check out on the home page in the art section.</p>
+      <p>
+        Also, I'm a follower of topics and trends such as AI, high-performance
+        computing, UI/UX, automation progress, game development, decentralized
+        systems, alternative computing and brain-computer interfaces.
+      </p>
+      <p>
+        Email me for a complete résumé. I have many hobbies, some of which you
+        can check out on the home page in the art section.
+      </p>
     </div>
-    <img alt="That's me!" src="../assets/portrait_pic.jpg" width="120" height="120" id="image_of_me" />
+    <img
+      alt="That's me!"
+      src="../assets/portrait_pic.jpg"
+      width="120"
+      height="120"
+      id="image_of_me"
+    />
     <br />
     <p class="flash">
       Hit me up,
@@ -39,8 +58,15 @@
         rel="noopener noreferrer"
         href="mailto:andrija.djur@gmail.com"
         id="lets_talk"
-      >let's talk.</a>
-      <img alt="Let's talk!" src="../assets/call_gesture_pic.png" width="30" height="30" id="call_me_logo" />
+        >let's talk.</a
+      >
+      <img
+        alt="Let's talk!"
+        src="../assets/call_gesture_pic.png"
+        width="30"
+        height="30"
+        id="call_me_logo"
+      />
     </p>
     <br />
   </div>
