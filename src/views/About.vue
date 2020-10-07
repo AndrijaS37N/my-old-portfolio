@@ -7,40 +7,46 @@
       <!-- Click or scroll through the text below to make it brighter. -->
       🛸
     </p>
-    <div onclick id="div_about">
+    <div onscroll id="div_about">
       <p>
         I'm a software engineer based in Belgrade, Serbia that's currently
-        looking for some creative React work. I've worked with a number of
-        different technologies.
+        looking for UI/UX development work focused on React. I've worked with a
+        number of different tools and languages.
       </p>
       <h1>&#127889;</h1>
-      <p>C and C++ programming languages.</p>
+      <p>React library, CSR and SSR with the Next.js framework.</p>
       <h1>&#128247;</h1>
-      <p>Node, React and Vue JavaScript giants.</p>
+      <p>Vue.js with cool SCSS animations.</p>
       <h1>&#127935;</h1>
-      <p>Java Spring Boot framework with Maven and MySQL.</p>
+      <p>PostgreSQL, Redis, MongoDB and MySQL databases.</p>
       <h1>🐚</h1>
-      <p>Python scripting for processing files and data.</p>
+      <p>HTML5, CSS3 and design systems like Chakra UI.</p>
       <h1>&#9203;</h1>
-      <p>SDLC and UML systems design.</p>
+      <p>ES2015+ JavaScript & TypeScript, and Node.js servers.</p>
       <h1>🍪</h1>
-      <p>Recently more into TypeScript, GraphQL and design systems.</p>
+      <p>Jest tests and GraphQL Apollo for requesting data.</p>
       <h1>🧁</h1>
-      <p>Check out my GitHub for more info on the projects I've done!</p>
-      <h1>🌳</h1>
+      <p>Also done C/C++, Java Spring Boot, Python, Bash.</p>
+      <h1 style="font-size: 48px;">🐆 🐘 🐍</h1>
+      <p>Check out my GitHub for more details on the projects I've done!</p>
+      <h1 style="font-size: 32px;">🌴 🌱 🏡 🌳 🌲</h1>
       <br />
       <hr id="blue_hr_about" />
       <br />
       <br />
       <br />
       <p>
-        Also, I'm a follower of topics and trends such as AI, high-performance
-        computing, UI/UX, automation progress, game development, decentralized
-        systems, alternative computing and brain-computer interfaces.
+        I'm a follower of topics and trends such as AI, modern UI/UX, tech
+        automation progress, graphics and game development advances,
+        decentralized systems, alternative computing and brain-computer
+        interfaces.
       </p>
       <p>
-        Email me for a complete résumé. I have many hobbies, some of which you
-        can check out on the home page in the art section.
+        <span style="color: #bfd9f3; text-decoration: none; font-weight: 900;"
+          >Email me for a complete résumé.</span
+        >
+        I have many hobbies and passions, some of which you can check out on the
+        home page in the art section.
       </p>
     </div>
     <img
@@ -72,6 +78,27 @@
   </div>
 </template>
 
+<script>
+import $ from "jquery";
+
+export default {
+  name: "welcome",
+  mounted: function() {
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        // check if scroll event happened
+        if ($(document).scrollTop() > 25) {
+          // check if user scrolled more than 25 from top of the browser window
+          $("#div_about").css("color", "#bfd9f3");
+        } else {
+          $("#div_about").css("color", "#618ab3"); // color hash from App.vue
+        }
+      });
+    });
+  },
+};
+</script>
+
 <style lang="css">
 p {
   font-size: 28px;
@@ -82,9 +109,6 @@ p {
 p a {
   text-decoration: none;
   border-bottom: 2px solid;
-}
-#div_about:hover {
-  color: #bfd9f3;
 }
 #lets_talk {
   font-weight: lighter;
